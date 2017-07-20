@@ -28,3 +28,13 @@ print(q.isherm, q.type) # 'some additional properties'
 '''(False, 'ket')'''
 
 #Using Qobj instances for calculations
+sy = Qobj([[0, -1j], [1j, 0]])
+print(sy)
+#output:
+'''
+Quantum object: dims = [[2], [2]], shape = (2, 2), type = oper, isherm = True
+Qobj data =
+[[ 0.  -1.j]
+ [ +1.j  0.]]
+'''
+
